@@ -67,8 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\CustomerManagement.aspx" />
+    <Content Include="Admin\LoginAdmin.aspx" />
+    <Content Include="Admin\Report Engine.aspx" />
     <Content Include="Admin\TaskManagement.aspx" />
     <Content Include="Admin\UserManagement.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="images\logoHd_small.png" />
     <Content Include="lib_DataTable\css\dataTables.bootstrap.min.css" />
     <Content Include="lib_DataTable\css\jquery.dataTables.min.css" />
     <Content Include="lib_DataTable\js\dataTables.bootstrap.min.js" />
@@ -81,6 +85,7 @@
     <Content Include="lib_theme\img\cd-search.svg" />
     <Content Include="lib_theme\img\logoHd_small.png" />
     <Content Include="lib_theme\js\scripts.js" />
+    <Content Include="LoginCustomer.aspx" />
     <Content Include="packages.config" />
     <Content Include="Admin\Staff.Master" />
     <Content Include="Admin\Admin.Master" />
@@ -92,6 +97,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Question Engine.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +116,20 @@
     </Compile>
     <Compile Include="Admin\CustomerManagement.aspx.designer.cs">
       <DependentUpon>CustomerManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LoginAdmin.aspx.cs">
+      <DependentUpon>LoginAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LoginAdmin.aspx.designer.cs">
+      <DependentUpon>LoginAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Report Engine.aspx.cs">
+      <DependentUpon>Report Engine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Report Engine.aspx.designer.cs">
+      <DependentUpon>Report Engine.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Staff.Master.cs">
       <DependentUpon>Staff.Master</DependentUpon>
@@ -130,7 +152,35 @@
     <Compile Include="Admin\UserManagement.aspx.designer.cs">
       <DependentUpon>UserManagement.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginCustomer.aspx.cs">
+      <DependentUpon>LoginCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginCustomer.aspx.designer.cs">
+      <DependentUpon>LoginCustomer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Admin\Question Engine.aspx.cs">
+      <DependentUpon>Question Engine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Question Engine.aspx.designer.cs">
+      <DependentUpon>Question Engine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

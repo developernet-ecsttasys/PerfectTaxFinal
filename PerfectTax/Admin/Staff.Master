@@ -70,9 +70,8 @@
       <ul class="nav navbar-nav navbar-left">
 				<li class="active" style="margin: 0 10px 0 10px;"><a href="#"  title="Task Management"><i class="fa fa-tasks fa-2x"></i></a></li>
                 <li class="active" style="margin: 0 10px 0 10px;"><a href="CustomerManagement.aspx" title="Customer Management"><i class="fa fa-user-secret fa-2x"></i></a></li>
-                <li class="active" style="margin: 0 10px 0 10px;"><a href="UserManagement.aspx" title="User Management"><i class="fa fa-users fa-2x"></i></a></li>
-                <li class="active" style="margin: 0 10px 0 10px;"><a href="#0" title="Question Engine"><i class="fa fa-question-circle fa-2x"></i></a></li>
-                <li class="active" style="margin: 0 10px 0 10px;"><a href="#0" title="Report Engine"><i class="fa fa-files-o fa-2x"></i></a></li>
+                <li class="active" style="margin: 0 10px 0 10px;"><a href="UserManagement.aspx" title="Document Verificattion"><i class="fa fa-file-text fa-2x"></i></a></li>
+                <li class="active" style="margin: 0 10px 0 10px;"><a href="#0" title="Notification"><i class="fa fa-bell-o fa-2x"></i></a></li>
                 <li class="active" style="margin: 0 10px 0 10px;"><a href="#"  title="Account Settings"><i class="fa fa-cog fa-2x"></i></a></li>
       </ul>
 
