@@ -1,17 +1,17 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="CustomerManagement.aspx.cs" Inherits="PerfectTax.Admin.CustomerManagement" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="Report Engine.aspx.cs" Inherits="PerfectTax.Admin.Report_Engine" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="CPHMainContent" runat="server">
 
-    <div class="container-fluid" id="section1">
+     <div class="container-fluid" id="section1">
 <div class="panel panel-default" style="margin: 10px 0px;">
-        <div class="panel-body" style="font-weight:bold;">Customer Management <asp:Button ID="Button1" class="btn btn-success" text="Add Customer" runat="server" style="float:right;"/></div>
+        <div class="panel-body" style="font-weight:bold;"> Report Engine <asp:Button ID="Button1" class="btn btn-success" text="Add Report" runat="server" style="float:right;"/></div>
             
     </div>
 <div style="margin: 15px 0;">
     <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
         <thead>
-            <tr>
+           <tr>
                 <th>ID</th>
                 <th>User Name</th>
                 <th>Name</th>
@@ -22,7 +22,7 @@
                 <th>Comapany Name</th>
                 <th>Status</th>
                 <th>Action</th>
-            </tr>
+            </tr>>
         </thead>
  
         <tfoot>
@@ -41,8 +41,7 @@
         </tfoot>
  
         <tbody>
-                
-            <tr>
+             <tr>
                 <th>1</th>
                 <th>123456789123456</th>
                 <th>Premal Vyas</th>
@@ -106,20 +105,6 @@
                 <th>Active</th>
                 <th>Action</th>
             </tr>
-
-            <tr>
-                <th>6</th>
-                <th>243156748197564</th>
-                <th>Eion Morgan</th>
-                <th>243156748</th>
-                <th>Florida</th>
-                <th>197564</th>
-                <th>Califorina</th>
-                <th>IT Solution</th>
-                <th>Active</th>
-                <th>Action</th>
-            </tr>
-
         </tbody>
         </table>
 </div>

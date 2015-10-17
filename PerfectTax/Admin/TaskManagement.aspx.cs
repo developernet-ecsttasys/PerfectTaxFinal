@@ -12,13 +12,13 @@ namespace PerfectTax.Admin
         protected void Page_Load(object sender, EventArgs e)
         {
             PLHAddTask.Visible = false;
-            PLHUpdate.Visible = false;
+            PLHUpdate.Visible = true;
         }
 
         protected void BtnAddTask_Click(object sender, EventArgs e)
         {
             PLHAddTask.Visible = true;
-            PLHData.Visible = false;
+            PLHUpdate.Visible = false;
         }
     }
 }

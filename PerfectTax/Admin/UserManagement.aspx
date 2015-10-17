@@ -25,7 +25,7 @@
  
         <tfoot>
             <tr>
-                <th>ID </th>
+                <th>ID</th>
                 <th>Name</th>
                 <th>Designation</th>
                 <th>Date Of Birth</th>
@@ -37,6 +37,71 @@
         </tfoot>
  
         <tbody>
+             <tr>
+                <td>1</td>
+                <td>Ronak Patel</td>
+                <td>Developer</td>
+                <td>14/05/1995</td>
+                <td>01/10/2015</td>
+                <td>patelronak145@gmail.com</td>
+                <td>Active</td>
+                <td>Action</td>
+            </tr>
+
+             <tr>
+                <td>2</td>
+                <td>Hardik Bhatia</td>
+                <td>Project Manager</td>
+                <td>16/03/1992</td>
+                <td>01/09/2013</td>
+                <td>hardikbhatia@gmail.com</td>
+                <td>Active</td>
+                <td>Action</td>
+            </tr>
+
+             <tr>
+                <td>3</td>
+                <td>Hardik Patel</td>
+                <td>Developer</td>
+                <td>14/05/1990</td>
+                <td>01/12/2015</td>
+                <td>hardik.patel@gmail.com</td>
+                <td>Active</td>
+                <td>Action</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>John Walker</td>
+                <td>Developer</td>
+                <td>09/05/1989</td>
+                <td>10/04/2010</td>
+                <td>jhonwalker@gmail.com</td>
+                <td>Active</td>
+                <td>Action</td>
+            </tr>
+
+             <tr>
+                <td>5</td>
+                <td>Sahil Khattar</td>
+                <td>Developer</td>
+                <td>14/08/1991</td>
+                <td>10/04/2010</td>
+                <td>khattar@gmail.com</td>
+                <td>Active</td>
+                <td>Action</td>
+            </tr>
+
+             <tr>
+                <td>6</td>
+                <td>Karan Talvar</td>
+                <td>Developer</td>
+                <td>04/08/1989</td>
+                <td>1/06/2010</td>
+                <td>karan@gmail.com</td>
+                <td>Active</td>
+                <td>Action</td>
+            </tr>
 
         </tbody>
         </table>
