@@ -5,7 +5,7 @@
 
      <div class="container-fluid" id="section1">
 <div class="panel panel-default" style="margin: 10px 0px;">
-        <div class="panel-body" style="font-weight:bold;"> Report Engine <asp:Button ID="Button1" class="btn btn-success" text="Add Report" runat="server" style="float:right;"/></div>
+        <div class="panel-body" style="font-weight:bold;"> Reports <asp:Button ID="Button1" class="btn btn-success" text="Add Report" runat="server" style="float:right;"/></div>
             
     </div>
 <div style="margin: 15px 0;">
@@ -51,7 +51,7 @@
                 <th>ecsttasys@gmail.com</th>
                 <th>Ecsttasys</th>
                 <th>Active</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
@@ -64,7 +64,7 @@
                 <th>lois@gmail.com</th>
                 <th>Null</th>
                 <th>Active</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
@@ -77,7 +77,7 @@
                 <th>binny@ymail.com</th>
                 <th>Null </th>
                 <th>Active</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
@@ -90,7 +90,7 @@
                 <th>davidj@gmail.com</th>
                 <th>David It Solution</th>
                 <th>Active</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
@@ -103,7 +103,7 @@
                 <th>andrew@gmail.com</th>
                 <th> Null </th>
                 <th>Active</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
         </tbody>
         </table>

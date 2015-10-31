@@ -25,23 +25,19 @@
 
             <!-- Text input-->
           <center>
-              <div class="form-group">
-                 <div class="TextboxWidth">
+              <div class="form-group textbox">
+                 <div>
                      <asp:TextBox ID="TextBox1" class="form-control input-md forgottxt" placeholder="Email ID" runat="server"></asp:TextBox>
                  </div>   
               </div>
            
             <!-- Button -->
-            <div class="form-group submitbtn">
-               <label class="control-label" for="singlebutton"></label>
-                  <div>
+            <div class="form-group button">
                       <asp:Button ID="Button2" class="btn btn-success forgotBtn" runat="server" Text="Submit" />
-                  </div>
             </div>
 
        </fieldset>
      </div>  <!-- Login Form End -->
-
           </center>  
         
     </form>

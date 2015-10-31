@@ -39,7 +39,7 @@
                 <th>Ways to save tax?</th>
                 <th>Active</th>
                 <th>Bank Statement</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
@@ -48,7 +48,7 @@
                 <th>How do I pay taxes which are due? </th>
                 <th>Active</th>
                 <th>Null</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
@@ -57,7 +57,7 @@
                 <th>I am going to get an Income Tax Refund. What should I do? </th>
                 <th>Active</th>
                 <th>Tax Refund Slip</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
@@ -66,7 +66,7 @@
                 <th>What kind of Income tax returns can I file using ClearTax?</th>
                 <th>Active</th>
                 <th>Tax File Statement</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
@@ -75,7 +75,7 @@
                 <th> Can I save on taxes if I have a housing loan?</th>
                 <th>Active</th>
                 <th>Bank Loan Paper</th>
-                <th>Active</th>
+                <th>Update / Delete </th>
             </tr>
         </tbody>
         </table>

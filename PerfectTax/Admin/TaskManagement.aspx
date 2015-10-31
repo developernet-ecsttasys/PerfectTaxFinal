@@ -7,7 +7,7 @@
 
          <div class="container-fluid" id="section1">
 <div class="panel panel-default" style="margin: 10px 0px;">
-        <div class="panel-body" style="font-weight:bold;">Task Management<asp:Button ID="BtnAddTask" class="btn btn-success" runat="server" Text="Add New Task" style="float:right;" OnClick="BtnAddTask_Click"/></div>
+        <div class="panel-body" style="font-weight:bold;">Task Management<asp:Button ID="BtnAddTask" class="btn btn-success" runat="server" Text="Assign Task" style="float:right;" OnClick="BtnAddTask_Click"/></div>
             
     </div>
 <div style="margin: 15px 0;">
@@ -15,8 +15,8 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Customer ID</th>
-                <th>User ID</th>
+                <th>Customer Name</th>
+                <th>User Name</th>
                 <th>Task Details</th>
                 <th>Status</th>
                 <th>Work Status</th>
@@ -27,8 +27,8 @@
         <tfoot>
              <tr>
                 <th>ID</th>
-                <th>Customer ID</th>
-                <th>User ID</th>
+                <th>Customer Name</th>
+                <th>User Name</th>
                 <th>Task Details</th>
                 <th>Status</th>
                 <th>Work Status</th>
@@ -39,62 +39,62 @@
         <tbody>
              <tr>
                 <th>1</th>
-                <th>123456789123456</th>
-                <th>1</th>
+                <th>Premal Vyas</th>
+                <th>Ronak Patel</th>
                 <th>Document Verification</th>
+                <th>Assigned</th>
                 <th>Active</th>
-                <th>Active</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
              <tr>
                 <th>2</th>
-                <th>324516789546821</th>
-                <th>2</th>
+                <th>Lois Porter</th>
+                <th>Hardik Bhatia</th>
                 <th>Document Verification</th>
-                <th>Active</th>
-                <th>Active</th>
-                <th>Action</th>
+                <th>Completed</th>
+                <th>Deactive</th>
+                <th>Update / Delete </th>
             </tr>
 
              <tr>
                 <th>3</th>
-                <th>341526789145678</th>
-                <th>3</th>
+                <th>Stuart Binny</th>
+                <th>Hardik Patel</th>
                 <th>Document Verification</th>
-                <th>Active</th>
-                <th>Active</th>
-                <th>Action</th>
+                <th>Canceled</th>
+                <th>Deactive</th>
+                <th>Update / Delete </th>
             </tr>
 
              <tr>
                 <th>4</th>
-                <th>524316879456532</th>
-                <th>4</th>
+                <th>David James</th>
+                <th>John Walker</th>
                 <th>Document Verification</th>
-                <th>Active</th>
-                <th>Active</th>
-                <th>Action</th>
+                <th>Completed</th>
+                <th>Deactive</th>
+                <th>Update / Delete </th>
             </tr>
 
             <tr>
                 <th>5</th>
-                <th>243156748197564</th>
-                <th>5</th>
+                <th>Andrew</th>
+                <th>Sahil Khattar</th>
                 <th>Document Verification</th>
+                <th>Assigned</th>
                 <th>Active</th>
-                <th>Active</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
 
              <tr>
                 <th>6</th>
-                <th>243156748197564</th>
-                <th>6</th>
+                <th>Eion Morgan</th>
+                <th>Karan Talvar</th>
                 <th>Document Verification</th>
+                <th>InProgress</th>
                 <th>Active</th>
-                <th>Active</th>
-                <th>Action</th>
+                <th>Update / Delete </th>
             </tr>
         </tbody>
         </table>
@@ -105,66 +105,57 @@
 
    
     <asp:PlaceHolder ID="PLHAddTask" runat="server">
+      
+       <div class="container"> <!-- Container starts -->
+ 
+            <div class ="col-md-12 logintop">  <!-- Registration Form Start -->
+                <fieldset>
+                <!-- Form Name -->
+                <div class="registertagline" style="margin-top:80px ">
+                   <h3> <center>Assign Task</center> </h3> 
+                </div> 
 
-              <div class="container"> <!-- Container starts -->
-            
+                <!-- Text input-->
+                <center>
+                    <div class="col-md-12">
+                        <div class="input-group textboxassigntax">
+                         <asp:TextBox ID="cutomeridtxt" class="form-control" placeholder="Customer ID" type="text"  runat="server"></asp:TextBox>
+                         <span class="input-group-addon btn btn-default"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+    
 
-    <div class ="col-md-12 logintop">  <!-- Registration Form Start -->
-        <fieldset>
+                    <!-- Text input-->
+        
+                      <div class="col-md-12" >
+                             <div class="input-group textboxassigntax">
+                                 <asp:TextBox id="appendedtext" name="appendedtext" class="form-control" placeholder="User ID" type="text" runat="server"></asp:TextBox>
+                                 <span class="input-group-addon btn btn-default"><i class="fa fa-search"></i></span>
+                            </div>
+                      </div>              
+        
 
-        <!-- Form Name -->
-        <legend> <center> <img style="margin-top:80px;" src="../images/logoHd_small.png"/> </center></legend>
+                    <!-- Text input-->
+                    <div class="col-md-12">
+                        <asp:TextBox ID="tasktitletxt" class="form-control input-md textboxassigntax" placeholder="Task Title" runat="server" required></asp:TextBox>
+                    </div>
 
-        <div class="registertagline">
-           <h3> <center>Assign Task</center></h3> 
-        </div> 
+                    <!-- Textarea -->
+                    <div class="col-md-12">                   
+                        <asp:TextBox ID="Taskdetailstxt" class="form-control textboxassigntax" TextMode="MultiLine" placeholder="Task details" Columns="50" Rows="5"  runat="server"></asp:TextBox>
+                    </div>
 
-        <!-- Text input-->
-        <center><div class="form-group" style="margin-top:10px; width:450px;" >  
-            <asp:TextBox ID="firstnametxt" class="form-control input-md registertxt" placeholder="Customer ID" runat="server" required></asp:TextBox>            
-        </div>
+                    <!-- Button (Double) -->
+                    <div class="col-md-12">
+                            <asp:LinkButton ID="signbtn" class="btn btn-success assignbtn" ToolTip="Assign" runat="server"><i class="fa fa-check fa-2x"></i></asp:LinkButton>
+                            <asp:LinkButton ID="closebtn" CssClass="btn btn-danger cancelbtn" ToolTip="Cancel" runat="server"><i class="fa fa-times fa-2x"></i></asp:LinkButton>
+                    </div>
 
-        <!-- Text input-->
-        <div class="form-group" style="width:450px;" >       
-           <asp:TextBox ID="lastnametxt" class="form-control input-md registertxt" placeholder="User ID" runat="server" required></asp:TextBox>
-        </div>
-
-
-        <!-- Text input-->
-        <div class="form-group" style="width:450px;">
-            <asp:TextBox ID="addresstxt" class="form-control input-md registertxt" placeholder="Task Details" runat="server" required></asp:TextBox>
-        </div>
-
-        <div class="col-md-12">
-            <div class="col-md-6" style="margin-left: 63px;">
-                 <asp:Label ID="Label1" style="" runat="server" Text="Status"></asp:Label> 
-            </div>       
-            <div class="col-md-6" style="margin-left: -404px;">
-               <asp:RadioButton ID="RadioButton1" style="margin: 8px;" GroupName="status" Text="Active" runat="server"></asp:RadioButton>
-               <asp:RadioButton ID="RadioButton2" GroupName="status" Text="Deactive" runat="server"></asp:RadioButton>
-            </div>
-           
-        </div>
-
-        <div style=" margin-right: 225px;">
-            Work Status
-            <asp:RadioButton ID="RadioButton3" style="margin: 8px;" GroupName="workstatus" Text="Active" runat="server"></asp:RadioButton>
-            <asp:RadioButton ID="RadioButton4" GroupName="workstatus" Text="Deactive" runat="server"></asp:RadioButton>
-        </div>
-
-        <!-- Button (Double) -->
-        <div class="form-group" style="margin: 10px; margin-left: 281px;">
-              <asp:Button ID="Registerbtn" class="btn btn-success registerbtn" style="margin: 10px;" runat="server" Text="Assign" />
-              <asp:Button ID="Button3" class="btn btn-danger registercancelbtn" PostBackUrl="~/NewHomePage.aspx" runat="server" Text="Cancel" />
-        </div>
-
-        </fieldset>
-
-    </div>  </center>  <!-- Registration Form End -->
+                    </fieldset>
+                </div> 
+            </center>  <!-- Registration Form End -->
    
      </div>  <!-- Container-Fluid Div End -->
-
-
 
     </asp:PlaceHolder>
 

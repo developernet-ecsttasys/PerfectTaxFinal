@@ -38,3 +38,63 @@ C:\Users\Administrator\Desktop\PerfectTax\PerfectTax\bin\Microsoft.CodeDom.Provi
 C:\Users\Administrator\Desktop\PerfectTax\PerfectTax\obj\Debug\PerfectTax.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\PerfectTax\PerfectTax\obj\Debug\PerfectTax.dll
 C:\Users\Administrator\Desktop\PerfectTax\PerfectTax\obj\Debug\PerfectTax.pdb
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\csc.exe
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\vbc.exe
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.dll.config
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.pdb
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.dll
+C:\Users\Administrator\Desktop\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.pdb
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\csc.exe
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\System.Collections.Immutable.dll
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\System.Reflection.Metadata.dll
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\vbc.exe
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\VBCSCompiler.exe
+F:\PerfectTaxFinal-master\PerfectTax\bin\roslyn\VBCSCompiler.exe.config
+F:\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.dll.config
+F:\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.dll
+F:\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.pdb
+F:\PerfectTaxFinal-master\PerfectTax\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\PerfectTaxFinal-master\PerfectTax\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.csprojResolveAssemblyReference.cache
+F:\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.dll
+F:\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.pdb
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\csc.exe
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\System.Collections.Immutable.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\System.Reflection.Metadata.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\vbc.exe
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\VBCSCompiler.exe
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\roslyn\VBCSCompiler.exe.config
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.dll.config
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\PerfectTax.pdb
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.csprojResolveAssemblyReference.cache
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.dll
+D:\Perfect Tax\PerfectTaxFinal-master\PerfectTax\obj\Debug\PerfectTax.pdb

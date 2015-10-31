@@ -26,56 +26,48 @@
                 <h3 class="lbl tagline"> <center>Give Us The Opportunity To Help You Plan Well For Your Future</center></h3> 
             </div>  <!--End Header area -->
 
-             <div class="col-md-6 loginform "> <!-- Login Form Start -->
+             <center>
+                 <div class="loginform "> <!-- Login Form Start -->
                    <fieldset>   
-                    
-                        <div class="form-group">
                           <div class="col-md-12">
                               <asp:TextBox ID="emailidtxt" class="form-control input-md mainlogtxt" placeholder="USERNAME" type="text" runat="server"></asp:TextBox>
                           </div>
-                        </div>
 
                         <!-- Password input-->
-                        <div class="form-group">
                           <div class="col-md-12">
                             <asp:TextBox ID="passwordtxt"  class="form-control input-md mainlogtxt" placeholder="PASSWORD" type="password" runat="server"></asp:TextBox>
                           </div>
-                        </div>
 
                         <!-- Multiple Radios -->
-                        <div class="col-md-12 form-group">
                           <div class="col-md-12">
-                          <div class="radio">
+                          <div class="radio rdo">
                             <label for="radios-0">
-                                <asp:RadioButton ID="rdoStaff" GroupName="radio" class="rdostaff" value="1" runat="server" />
+                                <asp:RadioButton ID="radiostaff" GroupName="radio" value="1" runat="server" />
                                 Staff
 
-                               <asp:RadioButton ID="rdoAdmin" GroupName="radio" class="rdoadmin" value="2" runat="server" />
+                               <asp:RadioButton ID="radioadmin" GroupName="radio" class="admin" value="2" runat="server" />
                                Admin
                             </label>
 	                        </div>
                           </div>
-                        </div>
-
-                      
+                             
                         <!-- Button -->
-                        <div class="form-group">
                           <div class="col-md-12">
-                              <asp:Button ID="Button1" class="btn btn-primary loginbutton" runat="server" Text="LogIn" />
+                              <asp:Button ID="btnLogin" class="btn btn-primary loginbutton" runat="server" Text="LogIn" />
                           </div>
-                        </div>
+
 
                        <div class="col-md-12 signuplink">
-                           <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Register.aspx">Sign up for Perfect Tax and Finance</asp:LinkButton>
+                           <asp:LinkButton ID="Link1" runat="server" PostBackUrl="~/Register.aspx">Sign up for Perfect Tax and Finance</asp:LinkButton>
                        </div>
 
                        <div class="col-md-12 forgotpasswordlink">
-                           <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/forgotpassword.aspx">Forgot Password?</asp:LinkButton>
+                           <asp:LinkButton ID="Link2" runat="server" PostBackUrl="~/forgotpassword.aspx">Forgot Password?</asp:LinkButton>
                        </div>
 
                         </fieldset>
                 </div>  <!-- Login Form End -->
-            
+             </center>
 
             </div> <!--  End Container -->
     </form>

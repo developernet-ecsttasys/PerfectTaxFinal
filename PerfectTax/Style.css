@@ -3,30 +3,22 @@
     margin-top: 20px;
 }
 
-.registerlbl {
-    margin: 5px;
-    margin-left: 200px;
-    margin-top: 11px;
-}
-
 .registertxt {
     margin: 5px;
-    margin-left: -269px;
+    width:696px;
 }
 
 .registerbtn {
-    width: 120px;
-    margin: 8px;
-    margin-left: 290px;
+    width: 100px;
+    margin-left: 489px;
 }
 
 .registercancelbtn {
-   margin: 8px;
-   width: 120px;
+    width:100px;
 }
 
 .registertagline {
-    margin-top: -29px;
+
     margin-bottom: 25px;
 }
 
@@ -39,29 +31,19 @@
 
 .loginform {
     top:5px;
-    margin-left:246px;
-}
-
-
-.mainloglbl {
-    top: 15px;
 }
 
 .mainlogtxt {
     width: 364px;
-    margin-left: 108px;
-    margin-top: 16px;
-
+    margin:5px;
 }
 
 .signuplink {
-    margin-top: 5px;
-    margin-left: 243px;
+    margin-left: 69px;
 }
 
 .forgotpasswordlink {
-    margin-top: 5px;
-    margin-left: 357px;
+    margin-left: 126px;
 }
 
 
@@ -71,18 +53,16 @@
 
 .loginbutton{
     width: 100px;
-    margin-top: 10px;
-    margin-right: 38px;
-    float: right;
+    margin-left: 264px;
 }
 
 /* Admin Login Form Css */
-.rdostaff {
-   margin-left: 101px;
+.rdo {
+    margin-right:244px;
 }
 
-.rdoadmin {
-   margin-left: 45px
+.admin{
+    margin-left:26px;
 }
 
 
@@ -93,7 +73,33 @@
 }
 
 .submitbtn {
-        margin-left: 332px;
-    margin-top: -30px;
+    margin-left: 332px;
 }
 
+/* Task Management Details */
+
+.textboxassigntax {
+    width: 450px;
+    margin-bottom:6px; 
+}
+
+.assignbtn {
+    margin:5px;
+    width:100px;
+    margin-left:248px;
+}
+
+.cancelbtn {
+    width:100px;
+}
+
+
+/* Forgot Password Details */
+
+.textbox {
+    width:450px;
+}
+
+.button {
+    margin-left:380px;
+}

@@ -18,116 +18,80 @@
 <body>
      <form id="form1" runat="server">
         <div class="container-fluid"> <!-- Container starts -->
-            
+         
+       <center>
+             <div class ="col-md-12 logintop">  <!-- Registration Form Start -->
+                <fieldset>
 
-    <div class ="col-md-12 logintop">  <!-- Registration Form Start -->
-        <fieldset>
+                <!-- Form Name -->
+                <legend> <center> <img src="images/logoHd_small.png"/> </center></legend>
 
-        <!-- Form Name -->
-        <legend> <center> <img src="images/logoHd_small.png"/> </center></legend>
+                <div class="registertagline">
+                   <h3> <center>Give Us The Opportunity To Help You Plan Well For Your Future</center></h3> 
+                </div> 
 
-        <div class="registertagline">
-           <h3> <center>Give Us The Opportunity To Help You Plan Well For Your Future</center></h3> 
-        </div> 
+                <!-- Text input-->
+                <div>
+                      <asp:TextBox ID="firstnametxt" class="form-control input-md registertxt" placeholder="First Name" runat="server" required></asp:TextBox>      
+                </div>
 
-        <!-- Text input-->
-        <div class="form-group">
-            <asp:Label ID="Label1" class="col-md-4 control-label registerlbl" runat="server" Text="First Name :"></asp:Label> 
-          <div class="col-md-6">
-              <asp:TextBox ID="firstnametxt" class="form-control input-md registertxt" runat="server" required></asp:TextBox>      
-          </div>
-        </div>
+                <!-- Text input-->
+                <div>
+                    <asp:TextBox ID="lastnametxt" class="form-control input-md registertxt" placeholder="Last Name" runat="server" required></asp:TextBox>
+                </div>
+ 
 
-        <!-- Text input-->
-        <div class="form-group">
-            <asp:Label ID="Label2" class="col-md-4 control-label registerlbl" runat="server" Text="Last Name :"></asp:Label> 
-          <div class="col-md-6">
-            <asp:TextBox ID="lastnametxt" class="form-control input-md registertxt" runat="server" required></asp:TextBox>
-          </div>
-        </div>
+                <!-- Text input-->
+                <div>
+                    <asp:TextBox ID="addresstxt" class="form-control input-md registertxt" placeholder="Address" runat="server" required></asp:TextBox>
+                  </div>
 
-        <!-- Text input-->
-        <div class="form-group">
-            <asp:Label ID="Label9" class="col-md-4 control-label registerlbl" runat="server" Text="Address :"></asp:Label> 
-          <div class="col-md-6">
-            <asp:TextBox ID="addresstxt" class="form-control input-md registertxt" runat="server" required></asp:TextBox>
-          </div>
-        </div>
+                 <!-- Text input-->
+                <div>
+                    <asp:TextBox ID="contacttxt" class="form-control input-md registertxt" placeholder="Contact Number" runat="server" required></asp:TextBox>
+                  </div>
 
-         <!-- Text input-->
-        <div class="form-group">
-            <asp:Label ID="Label10" class="col-md-4 control-label registerlbl" runat="server" Text="Contact Number :"></asp:Label> 
-          <div class="col-md-6">
-            <asp:TextBox ID="contacttxt" class="form-control input-md registertxt" runat="server" required></asp:TextBox>
-          </div>
-        </div>
+                 <!-- Text input --> 
+                  <div>
+                    <asp:TextBox ID="zipcodetxt" class="form-control input-md registertxt" placeholder="Zip Code" runat="server" required></asp:TextBox>
+                  </div>
 
-         <!-- Text input --> 
-          <div class="form-group">
-          <label  for="textinput"></label>  
-            <asp:Label ID="Label8" class="col-md-4 control-label registerlbl" runat="server" Text="Zip Code :"></asp:Label> 
-          <div class="col-md-6">
-            <asp:TextBox ID="zipcodetxt" class="form-control input-md registertxt" runat="server" required></asp:TextBox>
-          </div>
-        </div> 
+                 <!-- Text input --> 
+                  <div> 
+                    <asp:TextBox ID="ssntxt" class="form-control input-md registertxt" placeholder="SSN Number" runat="server" required></asp:TextBox>
+                  </div>
 
-         <!-- Text input --> 
-          <div class="form-group">
-          <label  for="textinput"></label>  
-            <asp:Label ID="Label7" class="col-md-4 control-label registerlbl" runat="server" Text="SSN No. :"></asp:Label> 
-          <div class="col-md-6">
-            <asp:TextBox ID="ssntxt" class="form-control input-md registertxt" runat="server" required></asp:TextBox>
-          </div>
-        </div> 
+                <!-- Text input-->
+                <div>
+                    <asp:TextBox ID="emailidtxt" class="form-control input-md registertxt" placeholder="Email ID" runat="server" required></asp:TextBox>
+                  </div>
 
-        <!-- Text input-->
-        <div class="form-group">
-          <label  for="textinput"></label>  
-            <asp:Label ID="Label4" class="col-md-4 control-label registerlbl" runat="server" Text="Email ID :"></asp:Label> 
-          <div class="col-md-6">
-            <asp:TextBox ID="emailidtxt" class="form-control input-md registertxt" runat="server" required></asp:TextBox>
-          </div>
-        </div>
+                <!-- Text input-->
+                <div>
+                    <asp:TextBox ID="companytxt" class="form-control input-md registertxt" placeholder="Company(Optional)" runat="server"></asp:TextBox>
+                  </div>
 
+                <!-- Password input-->
+                <div>
+                      <asp:TextBox ID="portalpasstxt" class="form-control input-md registertxt" type="password" placeholder="Portal Password" runat="server" required ControlToValidate="portalpasstxt" Display="Dynamic" ></asp:TextBox>
+                  </div>
 
-        <!-- Text input-->
-        <div class="form-group">
-            <asp:Label ID="Label3" class="col-md-4 control-label registerlbl" runat="server" Text="Company(Optional) :"></asp:Label> 
-          <div class="col-md-6">
-            <asp:TextBox ID="companytxt" class="form-control input-md registertxt" runat="server"></asp:TextBox>
-          </div>
-        </div>
+                <!-- Password input-->
+                <div>
+                      <asp:TextBox ID="confrimpasstxt" class="form-control input-md registertxt" placeholder="Confrim Password" type="password" runat="server" required>  </asp:TextBox>
+                      <asp:CompareValidator ID="passwordCompare" runat="server"  Operator="Equal" ErrorMessage="Paasword Doesn't Match" ControlToValidate="confrimpasstxt" ControlToCompare="portalpasstxt"></asp:CompareValidator>           
+                    </div>
 
-        <!-- Password input-->
-        <div class="form-group">
-            <asp:Label ID="Label5" class="col-md-4 control-label registerlbl" runat="server" Text="Portal Password :"></asp:Label> 
-          <div class="col-md-6">
-              <asp:TextBox ID="portalpasstxt" class="form-control input-md registertxt" type="password" runat="server" required ControlToValidate="portalpasstxt" Display="Dynamic" ></asp:TextBox>
-          </div>
-        </div>
+                <!-- Button (Double) -->
+                <div>
+                      <asp:Button ID="Registerbtn" class="btn btn-success registerbtn" runat="server" Text="Sign Up" OnClick="Registerbtn_Click" />
+                      <asp:Button ID="Cancelbtn" class="btn btn-danger registercancelbtn" PostBackUrl="~/NewHomePage.aspx" runat="server" Text="Cancel" />
+                  </div>
 
-        <!-- Password input-->
-        <div class="form-group">
-            <asp:Label ID="Label6" class="col-md-4 control-label registerlbl" runat="server" Text="Confrim Password :"></asp:Label> 
-          <div class="col-md-6">
-              <asp:TextBox ID="confrimpasstxt" class="form-control input-md registertxt" type="password" runat="server" required>  </asp:TextBox>
-              <asp:CompareValidator ID="passwordCompare" runat="server"  Operator="Equal" ErrorMessage="Paasword Doesn't Match" ControlToValidate="confrimpasstxt" ControlToCompare="portalpasstxt"></asp:CompareValidator>
-               
-            </div>
-        </div>
+                </fieldset>
 
-        <!-- Button (Double) -->
-        <div class="form-group">
-          <label class="col-md-4 control-label" for="button1id"></label>
-          <div class="col-md-8">
-              <asp:Button ID="Registerbtn" class="btn btn-success registerbtn" runat="server" Text="Register" />
-              <asp:Button ID="Cancelbtn" class="btn btn-danger registercancelbtn" PostBackUrl="~/NewHomePage.aspx" runat="server" Text="Cancel" />
-          </div>
-        </div>
-
-        </fieldset>
-
-    </div>  <!-- Registration Form End -->
+            </div>  <!-- Registration Form End -->
+       </center> 
     
      </div>  <!-- Container-Fluid Div End -->
   </form>

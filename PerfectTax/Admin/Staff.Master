@@ -19,10 +19,10 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 
         <!-- Jqury UI -->
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
         <link rel="stylesheet" type="text/css" href="../lib_theme/css/styles.css" />
@@ -64,7 +64,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="../lib_theme/img/logoHd_small.png" style="height:60px;"</a>
+      <a class="navbar-brand" href="#"><img src="../lib_theme/img/logoHd_small.png" style="height:60px;" /></a>
     </div>
     <div class="navbar-collapse collapse" id="navbar-collapsible">
       <ul class="nav navbar-nav navbar-left">
@@ -76,7 +76,7 @@
       </ul>
 
         <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#"  title="Account Settings"><i class="fa fa-sign-out fa-2x"></i></a></li>
+            <li class="active"><a href="#"  title="Logout"><i class="fa fa-sign-out fa-2x"></i></a></li>
         </ul>
     </div>
   </div>

@@ -27,28 +27,25 @@
                 <h3 class="lbl tagline"> <center>Give Us The Opportunity To Help You Plan Well For Your Future</center></h3> 
             </div>  <!--End Header area -->
 
-             <div class="col-md-6 loginform "> <!-- Login Form Start -->
+            <center>
+                 <div class="loginform "> <!-- Login Form Start -->
                    <fieldset>   
-                    
-                        <div class="form-group">
                           <div class="col-md-12">
-                              <asp:TextBox ID="emailidtxt" class="form-control input-md mainlogtxt" placeholder="USERNAME" type="text" runat="server"></asp:TextBox>
+                              <asp:TextBox ID="usernametxt" class="form-control input-md mainlogtxt" placeholder="USERNAME" type="text" runat="server"></asp:TextBox>
                           </div>
-                        </div>
+                      
 
                         <!-- Password input-->
-                        <div class="form-group">
                           <div class="col-md-12">
                             <asp:TextBox ID="passwordtxt"  class="form-control input-md mainlogtxt" placeholder="PASSWORD" type="password" runat="server"></asp:TextBox>
                           </div>
-                        </div>
+
 
                         <!-- Button -->
-                        <div class="form-group">
                           <div class="col-md-12">
-                              <asp:Button ID="Button1" class="btn btn-primary loginbutton" runat="server" Text="LogIn" />
+                              <asp:Button ID="LoginBtn" class="btn btn-primary loginbutton" runat="server" Text="LogIn" OnClick="LoginBtn_Click" />
                           </div>
-                        </div>
+
 
                        <div class="col-md-12 signuplink">
                            <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Register.aspx">Sign up for Perfect Tax and Finance</asp:LinkButton>
@@ -58,10 +55,10 @@
                            <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/forgotpassword.aspx">Forgot Password?</asp:LinkButton>
                        </div>
 
-                        </fieldset>
+                   </fieldset>
                 </div>  <!-- Login Form End -->
-            
-
+            </center>
+           
             </div> <!--  End Container -->
     </form>
 
